@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anymotors">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Anymotors">
+        <activity
+            android:name=".checkbox.IconicActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".checkbox.DynamicarraylistActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".Task.NewDateActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".checkbox.ArrayadapterActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".checkbox.ListViewActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Task.OlddateActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".checkbox.TimeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkbox.oldDate"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox.DateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkbox.AlertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Radio"
+            android:exported="false" />
+        <activity
+            android:name=".Radiobox"
+            android:exported="false" />
+        <activity
+            android:name=".Menus.SeetingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Menus.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Menus.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".checkbox.colorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".checkbox.checkActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
